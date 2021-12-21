@@ -42,11 +42,6 @@
     "ts-node": "~7.0.1",
     "tslint": "~6.1.0",
     "typescript": "~4.0.5"
-  },
-  "jest": {
-    "preset": "jest-preset-angular",
-    "setupTestFrameworkScriptFile": "<rootDir>/setupJest.ts",
-    "coverageReporters":["json-summary"],
-    "collectCoverage": true
   }
+
 }

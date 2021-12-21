@@ -7,8 +7,8 @@ module.exports = {
   testMatch: ['**/+(*.)+(spec).+(ts)'],
   setupFilesAfterEnv: ['<rootDir>/src/test.ts'],
   collectCoverage: true,
-  coverageReporters: ['html','json'],
-  coverageDirectory: 'coverage/my-app',
+  coverageReporters: ['json-summary'],
+  coverageDirectory: 'coverage',
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths || {}, {
     prefix: '<rootDir>/'
   })
