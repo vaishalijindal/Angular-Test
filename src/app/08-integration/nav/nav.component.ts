@@ -13,6 +13,7 @@ export class NavComponent implements OnInit {
 
 	demo(){
 		console.log("empty code");
+		console.log("new commit");
 		
 	}
 }
