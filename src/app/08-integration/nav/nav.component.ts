@@ -17,6 +17,12 @@ export class NavComponent implements OnInit {
 		console.log("new commit for test");
 		
 	}
+	check(){
+		console.log("empty code1");
+		console.log("new commit");
+		console.log("new commit for test");
+		
+	}
 }
 export function	compute(number) {
 	if (number < 0) {
